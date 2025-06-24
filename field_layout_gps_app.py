@@ -29,6 +29,15 @@ st.set_page_config(page_title="Field Layout GPS Aligner", layout="centered")
 st.title("🌱 Field Layout GPS Coordinate Aligner")
 
 df = load_data()
+# Constants from the original layout
+cell_height = 10  # or whatever your planted row length was
+cell_width = 3.3  # estimate if unknown
+
+# Recalculate coordinates
+df['X_start'] = df['X'] - cell_width / 2
+df['X_stop'] = df['X'] + cell_width / 2
+df['Y_start'] = df['Y'] - cell_height / 2
+df['Y_stop'] = df['Y'] + cell_height / 2
 
 gps_input = st.text_input("Enter GPS for T0 lower-left corner (format: XX-YY-ZZ)", "40-06-54")
 

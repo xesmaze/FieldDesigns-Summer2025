@@ -1,0 +1,33 @@
+{
+  "method": "automatic_texture_localization_plus_rotation",
+  "detected_center_utm": [
+    397124.821965064,
+    4435600.170454808
+  ],
+  "rotation_deg": -0.0,
+  "expected_width_m": 42.824400000000004,
+  "expected_height_m": 72.5424,
+  "preview_candidate_pixel": [
+    985,
+    1115
+  ],
+  "search_window_pixels": [
+    421,
+    216,
+    986,
+    1116
+  ],
+  "affine_matrix_2x3": [
+    [
+      -0.3048,
+      -3.732723443801133e-17,
+      397149.129765064
+    ],
+    [
+      3.732723443801133e-17,
+      -0.3048,
+      4435639.489654807
+    ]
+  ],
+  "note": "Source GeoJSON latitude/longitude intentionally ignored; its 21x24 Row/Range topology is retained."
+}

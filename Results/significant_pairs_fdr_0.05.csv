@@ -1,0 +1,1 @@
+Genotype_1,Genotype_2,n_paired_blocks,shared_blocks,mean_G1_adjusted_yield_kg_ha,mean_G2_adjusted_yield_kg_ha,mean_difference_G1_minus_G2_kg_ha,sd_paired_difference,se_paired_difference,t_statistic,p_raw,p_holm,significant_holm_0.05,p_fdr_bh,significant_fdr_0.05,significant_raw_0.05,direction

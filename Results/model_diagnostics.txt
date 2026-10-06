@@ -1,0 +1,33 @@
+Yield normalization diagnostics
+===============================
+
+Response: Yield_kg_ha
+Usable yield plots: 479 / 480
+Reference canopy coverage (field median): 0.330689 (33.07%)
+Common canopy slope: -231.049373 response-units per 1.0 canopy fraction
+Common canopy slope per +10 percentage points coverage: -23.104937
+
+Common-slope model
+------------------
+R2: 0.298589
+Adjusted R2: 0.227478
+AIC: 7722.235
+BIC: 7909.962
+Coverage coefficient HC3 p-value: 0.57704
+
+Genotype x coverage interaction model
+-------------------------------------
+R2: 0.331964
+Adjusted R2: 0.215427
+AIC: 7752.883
+BIC: 8053.245
+
+Nested interaction test
+-----------------------
+F statistic: 0.753103
+df difference: 27
+p-value: 0.811548
+
+Interpretation note
+-------------------
+plot_yield_normalized.csv retains all raw values. Yield_kg_ha_coverage_normalized applies only the common canopy correction. Yield_kg_ha_coverage_spatial_normalized additionally moves plots to the field-center/average-block reference while preserving genotype and residual. Yield_kg_ha_interaction_normalized allows genotype-specific canopy responses.
